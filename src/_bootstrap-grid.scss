@@ -37,6 +37,11 @@ html {
 @import "mixins/breakpoints";
 @import "mixins/grid-framework";
 @import "mixins/grid";
+@import "mixins/text-truncate";
+@import "mixins/text-emphasis";
+@import "mixins/hover";
+@import "mixins/text-hide";
+@import "mixins/visibility";
 
 @import "custom";
 
@@ -44,5 +49,5 @@ html {
 
 // Visibility and responsive align
 
-@import "mixins/text";
-@import "mixins/visibility";
+@import "utilities/text";
+@import "utilities/visibility";
