@@ -41,3 +41,8 @@ html {
 @import "custom";
 
 @import "grid";
+
+// Visibility and responsive align
+
+@import "mixins/text";
+@import "mixins/visibility";
